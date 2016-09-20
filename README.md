@@ -37,6 +37,9 @@ Thanks goes out to [vsouza](https://github.com/vsouza) for the inspiration of hi
 * [Web Server Connectivity](#web-server-connectivity)
 	* [HTTP](#http-libraries)
 	* [WebSockets](#websockets)
+* [Example Projects](#example-projects)
+        * [Websites](#websites)
+        * [Web Apps](#web-apps)
 
 ## Server Side Swift Frameworks
 Server Side Swift frameworks are projects that provide an infrastructure with which you can build a working Swift API.
@@ -212,6 +215,16 @@ Connectors to Web servers such as Apache, nginx.
 ### Distributed Messaging
 
 * [Zewo ZeroMQ](https://github.com/Zewo/ZeroMQ)
+
+## Example Projects
+
+### Websites
+Real websites (no dummy or fake) which are already running in server-side Swift with open source code.
+
+* [SwiftyBeaver Website](https://github.com/SwiftyBeaver/SBWebsite) - [swiftybeaver.com](https://swiftybeaver.com) powered by Vapor
+
+
+
 
 ## Contributing
 
