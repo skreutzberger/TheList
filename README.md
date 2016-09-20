@@ -55,9 +55,9 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 ### Compression
 
 * [Perfect-Zip](https://github.com/PerfectlySoft/Perfect-Zip) - Perfect Zip compression utility.
+* [Vapor gzip](https://github.com/vapor/gzip-provider)
 * [Zewo gzip](https://github.com/Zewo/gzip) - gzip data compression from Swift, OS X & Linux ready.
 * [Zewo zlib](https://github.com/Zewo/zlib) - SwiftPM-compatible fork of zlib, OS X & Linux ready.
-* [Vapor gzip](https://github.com/vapor/gzip-provider)
 
 ### Encryption / Cryptography
 
@@ -68,9 +68,9 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ### Logging
 
-* [Zewo Log](https://github.com/ZewoGraveyard/Log)
 * [Perfect Logging](https://github.com/PerfectlySoft/Perfect) - component of core Perfect Library.
 * [Vapor SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver-Vapor) - Logging Provider for Vapor, the server-side Swift 3 web framework
+* [Zewo Log](https://github.com/ZewoGraveyard/Log)
 
 ### Command Line Access
 
@@ -100,40 +100,40 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ### Miscellaneous
 
-* [Pefect Thread Library](https://github.com/PerfectlySoft/Perfect-Thread) - Core threading library for Perfect Server Side Swift. Includes support for serial and concurrent thread queues, locks, read/write locks and events.
-* [Zewo Threading](https://github.com/Zewo/Thread) - A concise and type-safe wrapper around the POSIX pthread API.
 * [Console](https://github.com/vapor/console)
-* [Zewo ZeroMQ](https://github.com/ZewoGraveyard/ZeroMQ) - Distributed Messaging platform.
-* [Zewo UUID](https://github.com/Zewo/UUID) - Easily generate UUID's in Swift.
+* [HTTP Serializer](https://github.com/ZewoGraveyard/HTTPSerializer)
+* [Perfect Thread Library](https://github.com/PerfectlySoft/Perfect-Thread) - Core threading library for Perfect Server Side Swift. Includes support for serial and concurrent thread queues, locks, read/write locks and events.
 * [Perfect UUID](https://github.com/PerfectlySoft/Perfect) - included in Core library.
 * [POSIXRegex](https://github.com/ZewoGraveyard/POSIXRegex) - provides POSIX Regular Expressions for Swift 3.0.
-* [HTTP Serializer](https://github.com/ZewoGraveyard/HTTPSerializer)
+* [Zewo Threading](https://github.com/Zewo/Thread) - A concise and type-safe wrapper around the POSIX pthread API.
+* [Zewo ZeroMQ](https://github.com/ZewoGraveyard/ZeroMQ) - Distributed Messaging platform.
+* [Zewo UUID](https://github.com/Zewo/UUID) - Easily generate UUID's in Swift.
 
 ## Authentication
 
+* [Hashed Password](https://github.com/Zewo/HashedPassword)
+* [JSON WebTokens](https://github.com/Zewo/JSONWebToken)
 * [Turnstile](https://github.com/stormpath/Turnstile) - an authentication framework for Swift. Integrations with:
  * [Vapor](https://github.com/vapor/vapor/tree/master/Sources/Auth/Authentication)
  * [Perfect](https://github.com/stormpath/Turnstile-Perfect)
-* [Hashed Password](https://github.com/Zewo/HashedPassword)
-* [JSON WebTokens](https://github.com/Zewo/JSONWebToken)
 
 ## Templating
 
-* [Perfect Mustache](https://github.com/PerfectlySoft/Perfect-Mustache) - Mustache template support for Perfect.
+* [MuttonChop](https://github.com/Danappelxx/MuttonChop) - Mustache templates in Swift
 * [Leaf](https://github.com/vapor/leaf) - An extensible templating language built for Vapor.
+* [Perfect Mustache](https://github.com/PerfectlySoft/Perfect-Mustache) - Mustache template support for Perfect.
 * [Vapor Markdown Provider](https://github.com/vapor/markdown-provider)
 * [Vapor Mustache](https://github.com/vapor/mustache-provider)
 * [Zewo Mustache](https://github.com/Zewo/Mustache)
-* [MuttonChop](https://github.com/Danappelxx/MuttonChop) - Mustache templates in Swift
 
 ## Parsers
 
 ### JSON
 
-* [Vapor JSON](https://github.com/vapor/json) - JSON wrapper around Node.
 * [Perfect JSON Convertible objects](https://github.com/PerfectlySoft/Perfect) - included in the Perfect core library.
-* [Zewo JSON](https://github.com/Zewo/JSON)
+* [Vapor JSON](https://github.com/vapor/json) - JSON wrapper around Node.
 * [Vdka JSON](https://github.com/Vdka/JSON)
+* [Zewo JSON](https://github.com/Zewo/JSON)
 * [Zewo HTTPParser](https://github.com/ZewoGraveyard/HTTPParser) - HTTP (RFC 2616) parser for Swift 3.0.
 
 ### XML
